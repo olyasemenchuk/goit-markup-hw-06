@@ -60,7 +60,7 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button class="modal-close-btn" type="button">
             <svg class="close-btn" width="8" height="8">
@@ -131,14 +131,14 @@
       </div>
     </header>
     <main>
-      <section class="hero hide">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
 
-      <section class="section benefits hide">
+      <section class="section benefits">
         <div class="container">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list">
@@ -194,14 +194,18 @@
         </div>
       </section>
 
-      <section class="section team hide">
+      <section class="section team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-members">
               <img
                 class="member-img"
-                src="./images/img-3.jpg"
+                srcset="
+                  ./images/team/team-1-min.jpg    1x,
+                  ./images/team/team-1@2x-min.jpg 2x
+                "
+                src="./images/team/team-1-min.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -244,7 +248,11 @@
             <li class="team-members">
               <img
                 class="member-img"
-                src="./images/img-2.jpg"
+                srcset="
+                  ./images/team/team-2-min.jpg    1x,
+                  ./images/team/team-2@2x-min.jpg 2x
+                "
+                src="./images/team/team-2-min.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -287,7 +295,11 @@
             <li class="team-members">
               <img
                 class="member-img"
-                src="./images/img-1.jpg"
+                srcset="
+                  ./images/team/team-3-min.jpg    1x,
+                  ./images/team/team-3@2x-min.jpg 2x
+                "
+                src="./images/team/team-3-min.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -306,20 +318,23 @@
                   <li class="socials-item">
                     <a class="socials" href="http://x.com"
                       ><svg class="socials-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="socials-item">
                     <a class="socials" href="http://facebook.com"
                       ><svg class="socials-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="socials-item">
                     <a class="socials" href="http://linkedin.com"
                       ><svg class="socials-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -327,7 +342,11 @@
             <li class="team-members">
               <img
                 class="member-img"
-                src="./images/img.jpg"
+                srcset="
+                  ./images/team/team-4-min.jpg    1x,
+                  ./images/team/team-4@2x-min.jpg 2x
+                "
+                src="./images/team/team-4-min.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -339,16 +358,16 @@
                   <li class="socials-item">
                     <a class="socials" href="http://www.instagram.com"
                       ><svg class="socials-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="socials-item">
                     <a class="socials" href="http://x.com"
                       ><svg class="socials-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="socials-item">
                     <a class="socials" href="http://facebook.com"
@@ -371,7 +390,7 @@
         </div>
       </section>
 
-      <section class="section portfolio hide">
+      <section class="section portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -379,9 +398,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-6.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-1-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-1@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-1-min.jpg"
                   alt="BankApp interface"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -398,9 +421,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-5.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-2-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-2@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-2-min.jpg"
                   alt="Paying by phone"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -417,9 +444,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-4.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-3-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-3@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-3-min.jpg"
                   alt="Meditation application"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -436,9 +467,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-3.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-4-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-4@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-4-min.jpg"
                   alt="Taxi service"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -455,9 +490,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-2.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-5-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-5@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-5-min.jpg"
                   alt="Different screen designs"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -474,9 +513,13 @@
               <div class="portf-wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/portfolio/img-1.jpg"
+                  srcset="
+                    ./images/portfolio-mobile/portfolio-6-min.jpg    1x,
+                    ./images/portfolio-mobile/portfolio-6@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio-mobile/portfolio-6-min.jpg"
                   alt="Studying online"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
